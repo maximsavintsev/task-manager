@@ -10,7 +10,7 @@ import BoardPage from "./features/boards/BoardPage";
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
         <Provider store={store}>
-            <BrowserRouter>
+            <BrowserRouter basename={"/task-manager"}>
                 <Routes>
                     <Route path="" element={<BoardsList />} />
                     <Route path=":boardId" element={<BoardPage />} />
