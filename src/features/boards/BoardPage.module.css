@@ -1,0 +1,66 @@
+.wrap {
+    margin: 12px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.input {
+    height: 20px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 32px 6px 12px;
+    font-size: 16px;
+    outline-style: none;
+}
+
+.button {
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttonInside {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 12px;
+}
+
+.inputWrap {
+    position: relative;
+    display: inline-block;
+}
+
+.lists {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.lists::-webkit-scrollbar {
+    display: none;
+}
+
+.buttonDeleteBoard {
+    opacity: 50%;
+}
+
+.boardTitleEdit {
+    width: fit-content;
+    border: none;
+    background: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 24px;
+}

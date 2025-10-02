@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background: #f3f3f3;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    padding: 6px 12px 6px 12px;
+}
+
+.title {
+    margin: none;
+}

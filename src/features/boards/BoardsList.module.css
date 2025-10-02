@@ -1,0 +1,72 @@
+.wrap {
+    margin: 12px;
+}
+
+.title {
+    margin-bottom: 12px;
+}
+
+.boards {
+    display: flex;
+    gap: 12px;
+    overflow-x: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.boards::-webkit-scrollbar {
+    display: none;
+}
+
+.input {
+    height: 20px;
+    display: inline-flex;
+    gap: 6px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 32px 6px 12px;
+    font-size: 16px;
+    outline-style: none;
+}
+
+.boardItem {
+    border-radius: 5px;
+    padding: 6px 12px 6px 12px;
+    cursor: pointer;
+    background: white;
+}
+
+.boardItemButtons {
+    display: flex;
+    gap: 12px;
+}
+
+.button {
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttonInside {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 12px;
+}
+
+.inputWrap {
+    position: relative;
+    display: inline-block;
+    width: 220px;
+    height: 32px;
+    box-sizing: border-box;
+}
+
+.buttonEdit {
+    opacity: 50%;
+    background: none;
+    border: none;
+    outline: none;
+}
